@@ -1,5 +1,38 @@
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+
 }
+
+button {
+  margin: 20px;
+  border-radius: 5px;
+  background-color: azure
+}
+
+.hidden {
+  display: none
+}
+
+.tile-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pig-card {
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.pig-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+.pig-card button {
+  width: 80%
+}
+
